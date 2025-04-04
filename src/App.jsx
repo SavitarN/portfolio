@@ -4,8 +4,9 @@ import "./index.css";
 
 function App() {
   const [isLoaded, setIsLoading] = useState(false);
+
   return (
-    <>{!isLoaded && <LoadingSree onComplete={() => setIsLoaded(true)} />}</>
+    <>{!isLoaded && <LoadingSree onComplete={() => setIsLoading(true)} />}</>
   );
 }
 
