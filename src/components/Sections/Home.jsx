@@ -29,7 +29,10 @@ const Home = () => {
 
           <a
             href="#contact"
-            className="bg-gradient-to-r from-blue-500 to-purple-600  text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]"
+            className="border border-purple-500/50 text-white-500 py-3 px-6 rounded font-medium transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.2)] 
+            hover:bg-gradient-to-r from-blue-500 to-purple-600 
+            
+            "
           >
             Contact Me
           </a>
