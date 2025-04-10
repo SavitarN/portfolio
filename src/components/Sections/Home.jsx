@@ -18,6 +18,22 @@ const Home = () => {
           interfaces, integrating APIs, and solving real-world problems through
           technology.
         </p>
+
+        <div className="flex justify-center space-x-4">
+          <a
+            href="#projects"
+            className="bg-gradient-to-r from-blue-500 to-purple-600  text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]"
+          >
+            View Projects
+          </a>
+
+          <a
+            href="#contact"
+            className="bg-gradient-to-r from-blue-500 to-purple-600  text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]"
+          >
+            Contact Me
+          </a>
+        </div>
       </div>
     </section>
   );
