@@ -10,17 +10,14 @@ const Contact = () => {
 
   const [submitted, setSubmitted] = useState(false);
   const handleSubmit = async (e) => {
-    const SERVICE_ID = "service_ea66sem";
-    const TEMPLATE_ID = "template_61sgton";
-    const PUBLIC_KEY = "4ywNocMAlbkDXoESz";
     e.preventDefault();
 
     try {
       const response = await emailjs.sendForm(
-        SERVICE_ID,
-        TEMPLATE_ID,
+        import.meta.env.VITE_SERVICE_ID,
+        import.meta.env.VITE_TEMPLATE_ID,
         e.target,
-        PUBLIC_KEY
+        import.meta.env.VITE_PUBLIC_KEY
       );
       if (response.status === 200) {
         setSubmitted(true);
@@ -97,7 +94,7 @@ const Contact = () => {
             {submitted && (
               <div className="w-full text-center">
                 <p className="font-semibold ">
-                  Thank you ! for reaching out and sending a message 👍
+                  Thank you ! for reaching out and sebnding a message 👍
                 </p>
               </div>
             )}
