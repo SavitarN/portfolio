@@ -15,7 +15,7 @@ const About = () => {
 
   return (
     <section
-      id="about "
+      id="about"
       className="min-h-screenflex items-center justify-center py-20"
     >
       <RevealOnScroll>
