@@ -152,6 +152,39 @@ const Projects = () => {
 
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba[59,130,246,0.1]] transition-all ">
               <h3 className="text-xl font-bold mb-2 ">
+                Assembly word guessing game
+              </h3>
+              <p className="text-gray-400 mb-3">
+                A game where user have limited chance to guess random word. Each
+                incorrect guess eliminates one programming language at a time.
+              </p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                <span className="bg-purple-500/10 text-white-500 py-1 px-3 rounded-full text-sm hover:bg-purple-600 hover:shadow-[0_2px_8px_rgba[59,130,246,0.1]] transition all">
+                  React Js
+                </span>
+                <span className="bg-purple-500/10 text-white-500 py-1 px-3 rounded-full text-sm hover:bg-purple-600 hover:shadow-[0_2px_8px_rgba[59,130,246,0.1]] transition all">
+                  HTML
+                </span>
+                <span className="bg-purple-500/10 text-white-500 py-1 px-3 rounded-full text-sm hover:bg-purple-600 hover:shadow-[0_2px_8px_rgba[59,130,246,0.1]] transition all">
+                  CSS
+                </span>
+              </div>
+              <div className="flex gap-2 items-center ">
+                <a
+                  href="https://github.com/SavitarN/Lab-equipment-management-system--Full-Stack.git"
+                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                >
+                  View Project Code{" "}
+                </a>
+                <FaGithub
+                  size={20}
+                  className="text-white hover:text-gray-400"
+                />
+              </div>
+            </div>
+
+            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba[59,130,246,0.1]] transition-all ">
+              <h3 className="text-xl font-bold mb-2 ">
                 Nike shoes Landing page
               </h3>
               <p className="text-gray-400 mb-3">
